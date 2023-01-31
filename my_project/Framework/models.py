@@ -14,3 +14,9 @@ class FrameworkModel(models.Model):
 
     def __str__(self):
         return self.name
+
+# FrameworkModel.objects.create(name="React", language="Javascript")
+# FrameworkModel.objects.create(name="Vue", language="Javascript")
+# FrameworkModel.objects.create(name="FastApi", language="Python")
+# FrameworkModel.objects.create(name="Laravel", language="PHP")
+# FrameworkModel.objects.create(name="Spring", language="Java")
